@@ -1,6 +1,7 @@
 package Project.NewPorject;
 
 public class Calculator implements TaxInterface  {
+        @Override
         public double calculateProgressiveTax(double netIncome) {
         double taxRate;
         // คำนวณภาษีแบบขั้นบันได
